@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water_Backface
+  m_Shader: {fileID: 4800000, guid: 232a57f461284884a9a46267a2f58bc8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Displacement:
+        m_Texture: {fileID: 2800000, guid: 423fc72863e62ea41849031296366b29, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveA:
+        m_Texture: {fileID: 2800000, guid: 06f9aa6d6a6b16743b7bdc1a7beed92b, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveB:
+        m_Texture: {fileID: 2800000, guid: 06f9aa6d6a6b16743b7bdc1a7beed92b, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4966:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _ColorIntensity: 0
+    - _Cutoff: 0.5
+    - _DX11Displacement: 0
+    - _DepthBlend: 0.047
+    - _DetailNormalMapScale: 1
+    - _DisplacementFrecuency: 0.6787091
+    - _DisplacementPower: 0.13
+    - _DisplacementSize: 0.03
+    - _DisplacementSpeed: 0
+    - _DstBlend: 0
+    - _FoamDepth: 0
+    - _FoamIntensity: 0
+    - _Fresnel: 0
+    - _Gloss: 0
+    - _Glossiness: 0.5
+    - _InverseDirection: 0
+    - _MaskPower: 0.9246519
+    - _MaskRotation: 0
+    - _MaskedWaves: -0.0312102
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 0.74
+    - _Parallax: 0.02
+    - _ReflectionFresnel: 0.802
+    - _ReflectionIntensity: 0
+    - _RefractionAmount: 0.019
+    - _RefractionDistortion: 0
+    - _RefractionPower: 0.075
+    - _ShoreBlend: 0.259
+    - _ShowWaves: 0
+    - _Specular: 0
+    - _SrcBlend: 1
+    - _TesselationLevel: 0.48
+    - _UVSec: 0
+    - _UseDisplacement: 1
+    - _WaveFoam: 1
+    - _WaveScale: 0.05
+    - _WaveScaleA: 0
+    - _WaveScaleB: 0
+    - _WaveSpeed: 0.358
+    - _WavesScale: 0.349
+    - _ZWrite: 1
+    - _node_7333: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0, g: 0.46069962, b: 0.5808823, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShallowColor: {r: 0.5233564, g: 0.77338636, b: 0.8088235, a: 1}

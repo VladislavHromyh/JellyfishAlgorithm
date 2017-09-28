@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b54ce0983baa7fa458c58e7bd5cfda95
+timeCreated: 1506547389
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: My Dear Watson
+  fontNames:
+  - My Dear Watson
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
